@@ -1,0 +1,70 @@
+/* footer */
+.final{
+    /*position: fixed; */
+	background-image: linear-gradient(to right, #6772dd 0%, #e6c300 100%);
+	padding-bottom: 50px;
+    
+}
+/* position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center; */
+.footer-content{
+    position: static;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.contact{
+	width: 40%;
+	color: rgb(0, 0, 0);
+}
+.redes-sociales{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.red-social-icono{
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+}
+
+.red-social-icono:hover{
+	background: white;
+	color: darkorange;
+}
+
+.red-social-icono i{
+	font-size: 35px;
+	line-height: 55px;
+}
+.brand{
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+}
+/* fotos.html */
+.imagenfotos{
+    height: 250px;
+    
+}
