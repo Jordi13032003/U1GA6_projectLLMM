@@ -79,6 +79,7 @@
     animation: blur 2s ease-out infinite;
     text-shadow: 0px 0px 5px #e6c300, 0px 0px 7px #fff;
     font-style: oblique;
+    
 }
 ul {
 	list-style-type: none;
@@ -138,6 +139,7 @@ ul {
 	  width: 50px;
 	  height: 50px;
     float: left;
+    
   }
 
   /* Menú */
