@@ -1,3 +1,25 @@
+
+
+body{
+   
+  background-image:url("http://3.bp.blogspot.com/-dUwyqkB5fP4/U3-C7C1lUGI/AAAAAAAAA20/L1fKJiJ9weo/s1600/ecualizador_abajo.gif");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: left;
+  background-position: right;
+  text-align: center;
+  
+}
+
+section{
+  background-color:rgba(120, 120, 120, 0.4);
+  width: 575px;
+  margin-left: 530px;
+  border-style: dashed double none;
+  border-color: grey;
+}
+
 /* footer */
 .final{
     /*position: fixed; */
