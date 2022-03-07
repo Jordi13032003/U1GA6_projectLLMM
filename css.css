@@ -99,17 +99,11 @@ width: 20px;
 /* footer */
 .final{
     /*position: fixed; */
-	background-image: linear-gradient(to right, #6772dd 0%, #e6c300 100%);
+	background-image: linear-gradient(to right, #67c2dd 0%, #00cfbe 100%);
 	padding-bottom: 50px;
     
 }
-/* position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center; */
+
 .footer-content{
     position: static;
 	display: flex;
@@ -218,7 +212,6 @@ ul {
 	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 	font-style: oblique;
 	
-/*	background-image: linear-gradient(to right, grey 0%, grey 100%); */
 	  padding: 50px;
 	
 	
@@ -240,58 +233,55 @@ ul {
     
   }
 
-  /* Menú */
-  /*#menu ul li {
-    background-color:#2e518b;
+/* categorias */
+.contenedor-categorias{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
-#menu ul {
-  list-style:none;
-  margin:0;
-  padding:0;
+.img-port{
+  width: 84%;
+	height: 200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(0,0,0.5);
+  img
+  
 }
 
-#menu ul a {
-  display:block;
-  color:#fff;
-  text-decoration:none;
-  font-weight:400;
-  font-size:15px;
-  padding:10px;
-  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform:uppercase;
-  letter-spacing:1px;
+.img-port > img{
+	width: 100%;
+	height: 100%;
+	object-fit: conver;
+	display: block;
 }
 
-#menu ul li {
-  position:relative;
-  float:left;
-  margin: auto;
-  padding:auto;
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: rgba(255, 255, 255, 0.5);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-#menu ul li:hover {
-  background:#5b78a7;
+.hover-galeria img{
+	width: 50px;
 }
 
-#menu ul ul {
-  display:none;
-  position:absolute;
-  top:100%;
-  left:0;
-  padding:0;
+.hover-galeria p{
+	color: black;
 }
 
-#menu ul ul li {
-  float:none;
-  width:150px
-}
 
-#menu ul ul a {
-  line-height:120%;
-  padding:10px 15px;
-}
-
-#menu ul li:hover > ul {
-  display:block;
-}*/
+.img-port:hover .hover-galeria{
+	transform: scale(1);
+} 
