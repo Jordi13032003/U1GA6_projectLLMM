@@ -177,10 +177,7 @@ width: 20px;
     animation: blur 2s ease-out infinite;
     text-shadow: 0px 0px 5px #e6c300, 0px 0px 7px #fff;
     font-style: oblique;
-<<<<<<< HEAD
     
-=======
->>>>>>> ce74fdf (V2_trabajo)
 }
 ul {
 	list-style-type: none;
@@ -210,11 +207,7 @@ ul {
 	background-color: red;
   }
   .titulo{
-<<<<<<< HEAD
 	margin: auto;
-=======
-
->>>>>>> ce74fdf (V2_trabajo)
 	text-align: center;
 	font-size: 60px;
 	color: rgb(0, 0, 0);
@@ -225,11 +218,7 @@ ul {
 	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 	font-style: oblique;
 	
-<<<<<<< HEAD
 /*	background-image: linear-gradient(to right, grey 0%, grey 100%); */
-=======
-	background-image: linear-gradient(to right, grey 0%, grey 100%);
->>>>>>> ce74fdf (V2_trabajo)
 	  padding: 50px;
 	
 	
@@ -243,7 +232,6 @@ ul {
 	  0px -10px 100px #fff7,
 	  0px -10px 100px #fff;
 	}
-<<<<<<< HEAD
   }
   .logo{
 	  width: 50px;
@@ -307,6 +295,3 @@ ul {
 #menu ul li:hover > ul {
   display:block;
 }*/
-=======
-  }
->>>>>>> ce74fdf (V2_trabajo)
