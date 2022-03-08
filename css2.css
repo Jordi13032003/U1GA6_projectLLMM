@@ -1,0 +1,112 @@
+body{
+   
+  background-image:url("http://3.bp.blogspot.com/-dUwyqkB5fP4/U3-C7C1lUGI/AAAAAAAAA20/L1fKJiJ9weo/s1600/ecualizador_abajo.gif");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
+  background-position:center;
+  text-align: center;
+  
+}
+
+section{
+  background-color:rgba(120, 120, 120, 1.0);
+  width: 750px;
+  margin-left: 450px;
+  border-style:hidden;
+  border-color: grey;
+  border: 30px solid darkgrey
+}
+
+
+.tit1{  font-size: 40px;
+}
+
+#inst{
+  border: 5px solid cyan
+  
+}
+
+h1 {
+  text-align:auto;
+  font-family: fantasy;
+  font-size: larger;
+}
+
+h2{ 
+  
+  text-align: left;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+h3{
+  text-align: right;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+     
+.frase{
+  display: flex;
+  align-items: center;
+}
+.contenedor-img {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+#foto {
+width: 20px;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  border: 5px solid cyan
+}
+
+#foto2 {
+  margin-left: auto;
+  width: 250px;
+  height: 250px;
+  border: 5px solid cyan
+}
+
+#foto3 {
+  margin-left: auto;
+  width: 190px;
+  height: 190px;
+  
+}
+
+#valorac{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Imagenes y etc de las cataegorias de instrumentos */
+
+.fotosmad{
+	margin-left: 210px;
+	width: 270px;
+	height: 250px;
+}
+
+/*Esta clase es para modificar la alineación del texto*/
+
+.category{
+	 
+	text-align: center;
+	border: 3px solid black;
+	
+}
+
+/* Video */
+
+.vid{
+
+    padding-left: 20%;
+
+}
+
