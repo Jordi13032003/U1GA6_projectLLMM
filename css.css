@@ -24,14 +24,16 @@ section{
 
 .tit1{  font-size: 40px;
 }
-
+.tit2{
+	color: #111;
+}
 #inst{
   border: 5px solid cyan
   
 }
 
 h1 {
-  text-align: center;
+  text-align:auto;
   font-family: fantasy;
   font-size: larger;
 }
@@ -86,6 +88,35 @@ width: 20px;
 #valorac{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Imagenes y etc de las cataegorias de instrumentos */
+
+.fotosmad{
+	margin-left: 210px;
+	width: 270px;
+	height: 250px;
+}
+
+/**Esta clase es para modificar la alineación del texto*/
+
+.category{
+	 
+	text-align: center;
+	border: 3px solid black;
+	
+}
+
+
+  
+  
+  
+
+
+
+
+
+
+
 
 
 
@@ -248,7 +279,7 @@ ul {
 	position: relative;
 	cursor: pointer;
 	box-shadow: 0 0 6px 0 rgba(0,0,0.5);
-  img
+  
   
 }
 
