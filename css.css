@@ -106,32 +106,12 @@ width: 20px;
 }
 
 
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .final{
     /*position: fixed; */
 	background-image: linear-gradient(to right, #67c2dd 0%, #00cfbe 100%);
 	padding-bottom: 50px;
-    
+  margin: auto;
 }
 
 .footer-content{
@@ -373,19 +353,19 @@ button:hover {
     cursor: pointer;
     font-size: 1.5rem;
 }
-jsc{
+#jsc{
   text-align: center;
 }
 
 /* Datos de contacto */
 .tabla1{
-  background-color: lightsalmon;
+  background-color: #d5bdaf;
   
 
 }
 
 .tabla2{
- background-color: lightblue;
+ background-color: #e3d5ca;
 
 }
 
@@ -396,7 +376,7 @@ td {
  text-align: center;
              
  } 
-tabla3{
+#tabla3{
   align-content: center;
 }
 .mader{

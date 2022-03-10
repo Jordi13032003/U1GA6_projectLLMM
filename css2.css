@@ -6,14 +6,17 @@ body{
   background-size:cover;
   background-position:center;
   background-position:center;
-  text-align: center;
+  text-align: left;
   
+}
+.atras{
+  margin: 50px;
 }
 
 section{
   background-color:rgba(120, 120, 120, 1.0);
   width: 750px;
-  margin-left: 450px;
+  margin: auto;
   border-style:hidden;
   border-color: grey;
   border: 30px solid darkgrey
@@ -22,16 +25,19 @@ section{
 
 .tit1{  font-size: 40px;
 }
-
+.tit2{
+	color: #111;
+}
 #inst{
   border: 5px solid cyan
   
 }
 
 h1 {
-  text-align:auto;
+  text-align:center;
   font-family: fantasy;
   font-size: larger;
+  margin: auto;
 }
 
 h2{ 
@@ -47,66 +53,135 @@ h3{
   font-style: oblique;
 }
 
-     
-.frase{
-  display: flex;
-  align-items: center;
-}
-.contenedor-img {
-  display: flex;
-  align-items: center;
+
+
+
+/* footer */
+
+.final{
   
+background-image: linear-gradient(to right, #67c2dd 0%, #00cfbe 100%);
+padding-bottom: 50px;
+margin: auto;
 }
 
-
-#foto {
-width: 20px;
-  margin-right: auto;
-  width: 250px;
-  height: 250px;
-  border: 5px solid cyan
+.footer-content{
+  position: static;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+.contact{
+width: 40%;
+color: rgb(0, 0, 0);
+}
+.redes-sociales{
+width: 50%;
+display: flex;
+justify-content: flex-end;
 }
 
-#foto2 {
-  margin-left: auto;
-  width: 250px;
-  height: 250px;
-  border: 5px solid cyan
+.red-social-icono{
+display: inline-block;
+margin-left: 20px;
+width: 60px;
+height: 60px;
+border: 1px solid white;
+border-radius: 50%;
+text-align: center;
+color: white;
 }
 
-#foto3 {
-  margin-left: auto;
-  width: 190px;
-  height: 190px;
-  
+.red-social-icono:hover{
+background: white;
+color: darkorange;
 }
 
-#valorac{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.red-social-icono i{
+font-size: 35px;
+line-height: 55px;
+}
+.brand{
+font-weight: 500;
+font-size: 40px;
 }
 
-/* Imagenes y etc de las cataegorias de instrumentos */
-
-.fotosmad{
-	margin-left: 210px;
-	width: 270px;
-	height: 250px;
+.contenedor{
+width: 90%;
+max-width: 1200px;
+overflow: hidden;
+margin: auto;
+padding: 60px 0;
+}
+/* Header*/
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    color: #6772dd;
+    letter-spacing: 2px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    animation: blur 2s ease-out infinite;
+    text-shadow: 0px 0px 5px #e6c300, 0px 0px 7px #fff;
+    font-style: oblique;
+    
 }
 
-/*Esta clase es para modificar la alineación del texto*/
-
-.category{
-	 
+  .fondo{
+    background-color: gray;
+  }
+  .active {
+	background-color: red;
+  }
+  .titulo{
+	margin: auto;
 	text-align: center;
-	border: 3px solid black;
+	font-size: 60px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	animation: blur 2s ease-out infinite;
+	text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	font-style: oblique;
 	
-}
+	  padding: 50px;
+	
+	
+	
+  }
+   @keyframes blur  {
+   from {
+	  text-shadow:
+	  0px 10px 100px #cfcfcf17,
+	  0px 10px 100px #cfcfcf17,
+	  0px -10px 100px #fff7,
+	  0px -10px 100px #fff;
+	}
+  }
+  .logo{
+	  width: 50px;
+	  height: 50px;
+    float: left;
+    
+  }
 
-/* Video */
 
-.vid{
+/* adaptador de dispositivos */
+@media only screen and (max-width: 480px) {
 
-    padding-left: 20%;
-
-}
-
+  #mailchimp input.email {
+    width: 50px;
+     }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+  
+  #mailchimp input[type="submit"] {
+    width: 100px;
+    }
+  }
